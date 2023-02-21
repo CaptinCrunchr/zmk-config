@@ -117,7 +117,7 @@
 		};	
         
 	};
-};
+
 void render_YOUR_logo(void) { 
 
 // 'Untitled', 128x32px
@@ -165,3 +165,4 @@ const unsigned char* epd_bitmap_allArray[1] = {
   oled_write_raw_P(YOUR_logo, sizeof(YOUR_logo));
 };
 render_YOUR_logo(void);
+};
