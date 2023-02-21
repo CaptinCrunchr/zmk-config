@@ -38,7 +38,7 @@
 						= <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
 				};
 		};
-
+		combos {
 				// internal-left & external-right thumb keys
 				combo_sym2 {
 						timeout-ms = <200>;
