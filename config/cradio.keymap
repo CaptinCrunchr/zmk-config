@@ -118,3 +118,11 @@
         
 	};
 };
+void render_YOUR_logo(void) {
+  static const char PROGMEM YOUR_logo[] = { 
+
+BIG BLOCK OF BYTECODE HERE
+
+};
+  oled_write_raw_P(YOUR_logo, sizeof(YOUR_logo));
+}
