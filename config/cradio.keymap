@@ -14,6 +14,10 @@
    // tapping_term_ms = <200>;
 };
 
+&nice_view_spi {
+    cs-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
+};
+
 / { 
 	/*
     combos {
