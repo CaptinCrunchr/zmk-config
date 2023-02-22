@@ -106,7 +106,7 @@ cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5			&kp F6 &kp F7 &kp F8 &kp F9 &kp F10
 		&kp F11 &kp F12 &none &kp EQUAL &kp LBKT  	&kp RBKT &kp SQT &none &none &none
 		&none &none &kp MINUS &kp LT &kp LBRC		&kp RBRC &kp GT &kp BSLH &kp PIPE &none
-					     	&none  &none       	&kp LSHIFT &none
+					     	&none  &mo SETTINGS       	&kp LSHIFT &none
 		>;
 		};
 
