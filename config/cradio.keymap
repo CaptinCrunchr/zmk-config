@@ -58,7 +58,7 @@ cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
     combos {
         compatible = "zmk,combos";
 				// both right thumb keys
-        combo_accent {
+        /*combo_accent {
             timeout-ms = <300>;
             key-positions = <32 33>;
             bindings = <&mo ACCENT>;
@@ -68,7 +68,7 @@ cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
 						timeout-ms = <200>;
 						key-positions = <31 33>;
 						bindings = <&mo SYM2>;
-				};
+				};*/
 				// both left thumb keys
 				combo_settings {
 						timeout-ms = <300>;
