@@ -94,7 +94,7 @@ cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
        		num_layer {
 		bindings = <
 		&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		&kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-		&kp ESC &none &none &none &none  		&kp LC(BSPC) &kp LEFT &kp UP &kp RIGHT &kp BSPC
+		&kp ESC &none &none &none &kp TAB  		&kp LC(BSPC) &kp LEFT &kp UP &kp RIGHT &kp BSPC
 		&sk LGUI &sk LALT &none &none &none 		&kp DEL &none &kp DOWN &none &kp ENTER
 		&kp LCTRL &kp LSHIFT       &none &none
 		>;
@@ -106,7 +106,7 @@ cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5			&kp F6 &kp F7 &kp F8 &kp F9 &kp F10
 		&kp F11 &kp F12 &none &kp EQUAL &kp LBKT  	&kp RBKT &kp SQT &none &none &none
 		&none &none &kp MINUS &kp LT &kp LBRC		&kp RBRC &kp GT &kp BSLH &kp PIPE &none
-					     	&none  &mo SETTINGS       	&kp LSHIFT &none
+					     	&none  &mo SETTINGS       	&kp LSHIFT &mo SETTINGS
 		>;
 		};
 
